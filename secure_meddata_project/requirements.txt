@@ -1,0 +1,4 @@
+pyotp
+bcrypt
+matplotlib
+cryptography

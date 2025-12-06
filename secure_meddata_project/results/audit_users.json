@@ -1,0 +1,146 @@
+[
+    {
+        "index": 0,
+        "timestamp": 1760554305.7512808,
+        "user_id": "system",
+        "action": "INIT",
+        "data_hash": "0",
+        "prev_hash": "0",
+        "hash": "4a01c4961bcdcf3b147167f915fd391edfc1a509f8d1a0c00f0b43dd904faac2"
+    },
+    {
+        "index": 1,
+        "timestamp": 1760554305.7728157,
+        "user_id": "admin_001",
+        "action": "ENCRYPT_DATA",
+        "data_hash": "-5490961187987854616",
+        "prev_hash": "4a01c4961bcdcf3b147167f915fd391edfc1a509f8d1a0c00f0b43dd904faac2",
+        "hash": "18c63087baaa17ccc122d57f9bc926509c29ccba337d877197360225ff3ed508"
+    },
+    {
+        "index": 2,
+        "timestamp": 1760554305.7728157,
+        "user_id": "admin_001",
+        "action": "UPDATE_RECORD",
+        "data_hash": "-5157317470401268899",
+        "prev_hash": "18c63087baaa17ccc122d57f9bc926509c29ccba337d877197360225ff3ed508",
+        "hash": "a83f8f6a73aa7cf6a03974cf5a9d4cb158f813bb7d807e6e90ad8a255576bab4"
+    },
+    {
+        "index": 3,
+        "timestamp": 1760554305.7728157,
+        "user_id": "admin_001",
+        "action": "VIEW_RECORD",
+        "data_hash": "6645299404792467034",
+        "prev_hash": "a83f8f6a73aa7cf6a03974cf5a9d4cb158f813bb7d807e6e90ad8a255576bab4",
+        "hash": "fbf79193573a4f0866128c0fb421ccd538f93490f7d4ed2a4c11a05816346d20"
+    },
+    {
+        "index": 4,
+        "timestamp": 1760554306.278251,
+        "user_id": "doctor_001",
+        "action": "UPDATE_RECORD",
+        "data_hash": "7813795725736400610",
+        "prev_hash": "fbf79193573a4f0866128c0fb421ccd538f93490f7d4ed2a4c11a05816346d20",
+        "hash": "c7b000bf882b1abfb9599090b005e8d37a2dc1d4405b9c7d82c0d1cef2204703"
+    },
+    {
+        "index": 5,
+        "timestamp": 1760554306.278251,
+        "user_id": "doctor_001",
+        "action": "UPDATE_RECORD",
+        "data_hash": "-3600029387325841090",
+        "prev_hash": "c7b000bf882b1abfb9599090b005e8d37a2dc1d4405b9c7d82c0d1cef2204703",
+        "hash": "6817c180139bf351afff13fe744a11d174928b7552583bd939ada5c8695963e1"
+    },
+    {
+        "index": 6,
+        "timestamp": 1760554306.278251,
+        "user_id": "doctor_001",
+        "action": "AUDIT_CHECK",
+        "data_hash": "-6330597862745238633",
+        "prev_hash": "6817c180139bf351afff13fe744a11d174928b7552583bd939ada5c8695963e1",
+        "hash": "6fa6596ca5a0c100b4b9ad556713106b9ee5b851cd23eca054156e0f8fd652cb"
+    },
+    {
+        "index": 7,
+        "timestamp": 1760554306.7804277,
+        "user_id": "doctor_002",
+        "action": "LOGIN",
+        "data_hash": "1357916506411772041",
+        "prev_hash": "6fa6596ca5a0c100b4b9ad556713106b9ee5b851cd23eca054156e0f8fd652cb",
+        "hash": "5e0667c6fe42a4a81060d04ddc3377b0e3cb55fabb4eb6894b1de73141041c2c"
+    },
+    {
+        "index": 8,
+        "timestamp": 1760554306.782182,
+        "user_id": "doctor_002",
+        "action": "ENCRYPT_DATA",
+        "data_hash": "-6324705946275221994",
+        "prev_hash": "5e0667c6fe42a4a81060d04ddc3377b0e3cb55fabb4eb6894b1de73141041c2c",
+        "hash": "fdef27e4de7e85a96af58757afab51a59771527519192174c67911f768c6b1a7"
+    },
+    {
+        "index": 9,
+        "timestamp": 1760554306.782182,
+        "user_id": "doctor_002",
+        "action": "AUDIT_CHECK",
+        "data_hash": "-8048180572200677833",
+        "prev_hash": "fdef27e4de7e85a96af58757afab51a59771527519192174c67911f768c6b1a7",
+        "hash": "3f0ff179c0add64f4359242360e946ed027dca317b0c6d6a1b0e1bfa15079cda"
+    },
+    {
+        "index": 10,
+        "timestamp": 1760554307.2841804,
+        "user_id": "nurse_001",
+        "action": "VIEW_RECORD",
+        "data_hash": "2585965552050166202",
+        "prev_hash": "3f0ff179c0add64f4359242360e946ed027dca317b0c6d6a1b0e1bfa15079cda",
+        "hash": "851d19401b9cc9f6c4c43cc784f14a59bdea9a65cbb9737dbf531d7ac416da9f"
+    },
+    {
+        "index": 11,
+        "timestamp": 1760554307.2861989,
+        "user_id": "nurse_001",
+        "action": "LOGIN",
+        "data_hash": "7542846061041691207",
+        "prev_hash": "851d19401b9cc9f6c4c43cc784f14a59bdea9a65cbb9737dbf531d7ac416da9f",
+        "hash": "2f382cffec446ee853df801138d1d37d53e161162da9f0d5ee4965f8191288fa"
+    },
+    {
+        "index": 12,
+        "timestamp": 1760554307.2894745,
+        "user_id": "nurse_001",
+        "action": "UPDATE_RECORD",
+        "data_hash": "-7098419458874372649",
+        "prev_hash": "2f382cffec446ee853df801138d1d37d53e161162da9f0d5ee4965f8191288fa",
+        "hash": "5792f0f9374532a0b3b9d2e7857d4b9b611dc399c72519ac38049b8948cc9612"
+    },
+    {
+        "index": 13,
+        "timestamp": 1760554307.795869,
+        "user_id": "assistant_001",
+        "action": "AUDIT_CHECK",
+        "data_hash": "1766616401358260930",
+        "prev_hash": "5792f0f9374532a0b3b9d2e7857d4b9b611dc399c72519ac38049b8948cc9612",
+        "hash": "7e0c1f1dd1dddbfc23f2982f8c2bbe08466e5f88826242a11e4bf0377361f29f"
+    },
+    {
+        "index": 14,
+        "timestamp": 1760554307.795869,
+        "user_id": "assistant_001",
+        "action": "AUDIT_CHECK",
+        "data_hash": "6503773066158220445",
+        "prev_hash": "7e0c1f1dd1dddbfc23f2982f8c2bbe08466e5f88826242a11e4bf0377361f29f",
+        "hash": "4ab7d6883a841b7a8c4a7e96327e24bd5735a67d3bf733fe1e25f6f2d893b146"
+    },
+    {
+        "index": 15,
+        "timestamp": 1760554307.795869,
+        "user_id": "assistant_001",
+        "action": "UPDATE_RECORD",
+        "data_hash": "6089171148518983057",
+        "prev_hash": "4ab7d6883a841b7a8c4a7e96327e24bd5735a67d3bf733fe1e25f6f2d893b146",
+        "hash": "79a641d2cf16ffc7414c0b905a65495430a2bcac6bd41b882b267fb1db13b73c"
+    }
+]
